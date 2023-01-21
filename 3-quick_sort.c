@@ -1,11 +1,12 @@
 #include "sort.h"
 
 /**
- * swap - swaps two elements
+ * _swap - swaps two elements
  * @arr: array having the elements
  * @size: size of the array
  * @a: 1st element
  * @b: 2nd element
+ * Return: void
  */
 void _swap(int *arr, size_t size, int *a, int *b)
 {
@@ -54,7 +55,7 @@ size_t partition(int *arr, size_t size, ssize_t low, ssize_t high)
  * @high: pivot index
  * Return: void
  */
-void quickSort(int *arr, size_t size, ssize_t low, ssize_t high)
+void quickSort(int *arr, size_t size, ssize_t low, ssize_t high);
 {
 	size_t pi;
 

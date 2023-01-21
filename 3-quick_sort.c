@@ -55,7 +55,7 @@ size_t partition(int *arr, size_t size, ssize_t low, ssize_t high)
  * @high: pivot index
  * Return: void
  */
-void quickSort(int *arr, size_t size, ssize_t low, ssize_t high);
+void quickSort(int *arr, size_t size, ssize_t low, ssize_t high)
 {
 	size_t pi;
 
